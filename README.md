@@ -4,7 +4,7 @@
 
 A streamlined workflow that allows you to hide active windows, hide all windows except the frontmost one, and show all previously hidden windows.
 
-To download it, click [here]().
+To download it, click [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases).
 
 This workflow is only for Alfred.app Powerpack users. Below you can see a list of commands supported:
 
@@ -18,7 +18,7 @@ Hide all active windows in all desktops:
 
 ## Hide all active windows except the frontmost one
 
-<img src="img/hide-option.png" alt="Alfred hide all windows except the frontmost one image" width=95%/>
+<img src="img/hide-option.png" alt="Alfred hide all windows except the frontmost one image"/>
 
 Hide all active windows in all desktops:
 
