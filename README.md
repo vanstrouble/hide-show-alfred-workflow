@@ -1,6 +1,6 @@
 # Hide / Show Window | Alfred Workflow
 
-<img src="img/app-icon.icns" alt="Hide/Show Window Alfred Workflow Icon" width="250px" align="right"/>
+<img src="img/app-icon.png" alt="Hide/Show Window Alfred Workflow Icon" width="250px" align="right"/>
 
 A streamlined workflow that allows you to hide active windows, hide all windows except the frontmost one, and show all previously hidden windows.
 
