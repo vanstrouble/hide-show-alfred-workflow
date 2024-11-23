@@ -20,7 +20,7 @@ Hide all active windows in all desktops:
 
 <img src="img/hide-option.png" alt="Alfred hide all windows except the frontmost one image"/>
 
-Hide all active windows in all desktops:
+Hide all active windows except the frontmost one:
 
 **Keyword:** hide + ⌥ (option)
 
