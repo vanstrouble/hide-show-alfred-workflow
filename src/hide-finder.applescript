@@ -1,13 +1,12 @@
-tell application "System Events"
-    -- Ocultar todos los procesos visibles excepto Finder
-    set visible of (every process whose visible is true and name is not "Finder") to false
-end tell
-
 tell application "Finder"
-    -- Colapsar todas las ventanas de Finder
-    if (count of windows) > 0 then
-        repeat with w in windows
-            set collapsed of w to true
+    set finderWindows to (every Finder window)
+    if (count of finderWindows) > 0 then
+        set activeWindow to front Finder window
+
+        repeat with w in finderWindows
+            if id of w is not id of activeWindow then
+                set collapsed of w to true
+            end if
         end repeat
     end if
 end tell
