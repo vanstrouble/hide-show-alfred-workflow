@@ -5,4 +5,13 @@ tell application "System Events"
     end repeat
 end tell
 
-tell application "Finder" to set collapsed of every window to false
+delay 0.5
+
+tell application "Finder"
+    set finderWindows to (every Finder window)
+    if (count of finderWindows) > 0 then
+        repeat with w in finderWindows
+            set collapsed of w to false
+        end repeat
+    end if
+end tell
