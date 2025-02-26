@@ -1,33 +1,38 @@
 # Hide / Show Window | Alfred Workflow
 
-<img src="img/app-icon.png" alt="Hide/Show Window Alfred Workflow Icon" width="250px" align="right"/>
+<img src="img/app-icon.png" alt="Hide/Show Window Alfred Workflow Icon" width="125px" align="right"/>
 
-A streamlined workflow that allows you to hide active windows, hide all windows except the frontmost one, and show all previously hidden windows.
+A simple yet powerful workflow to manage your workspace: quickly hide all windows, hide everything except the frontmost window, and restore all hidden windows with ease.
 
-To download it, click [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases).
+## Install
 
-This workflow is only for Alfred.app Powerpack users. Below you can see a list of commands supported:
+- Available on the Alfred Gallery. Get it [here](https://alfred.app/workflows/vanstrouble/hide-show-windows/).
+- You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflowreleases).
 
-## Hide all active windows (hide)
+**This workflow is only for Alfred.app Powerpack users.**
 
-<img src="img/hide.png" alt="Alfred hide all windows image"/>
+## Getting Started
 
-Hide all active windows in all desktops:
+### Hide all active windows except the frontmost one (hide)
 
-**Keyword:** hide
-
-## Hide all active windows except the frontmost one
-
-<img src="img/hide-option.png" alt="Alfred hide all windows except the frontmost one image"/>
+<img src="img/hide.png" alt="Alfred hide all windows except the frontmost one image" width="65%"/>
 
 Hide all active windows except the frontmost one:
 
-**Keyword:** hide + ⌥ (option)
+- **Keyword:** `hide`
 
-## Show all hidden windows (show)
+### Hide all active windows (hideall)
 
-<img src="img/show.png" alt="Alfred show all windows image"/>
+<img src="img/hide-option.png" alt="Alfred hide all windows image" width="65%"/>
+
+Hide all active windows, including the frontmost one, across all desktops:
+
+- **Keyword:** `hideall`
+
+### Show all hidden windows (showall)
+
+<img src="img/show.png" alt="Alfred show all windows image" width="65%"/>
 
 Show all active windows in all desktops:
 
-**Keyword:** show
+- **Keyword:** `showall`
