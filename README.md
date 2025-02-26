@@ -23,7 +23,7 @@ Hide all active windows except the frontmost one:
 
 ### Hide all active windows (hideall)
 
-<img src="img/hide-option.png" alt="Alfred hide all windows image" width="65%"/>
+<img src="img/hideall.png" alt="Alfred hide all windows image" width="65%"/>
 
 Hide all active windows, including the frontmost one, across all desktops:
 
