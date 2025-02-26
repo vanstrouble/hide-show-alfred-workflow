@@ -1,17 +1,11 @@
 tell application "System Events"
     set frontAppProc to first application process whose frontmost is true
     set frontAppName to name of frontAppProc
+
+    set visibleApps to (every process whose visible is true and name is not frontAppName and name is not "Finder")
 end tell
 
 if frontAppName is not "Finder" then
-    tell application "System Events"
-        set visibleApps to (every process whose visible is true and name is not frontAppName and name is not "Finder")
-
-        repeat with appProc in visibleApps
-            set visible of appProc to false
-        end repeat
-    end tell
-
     tell application "Finder"
         set finderWindows to (every Finder window)
         if (count of finderWindows) > 0 then
@@ -20,7 +14,7 @@ if frontAppName is not "Finder" then
             end repeat
         end if
     end tell
-else
+else if frontAppName is "Finder" then
     tell application "Finder"
         set finderWindows to (every Finder window)
         if (count of finderWindows) > 0 then
@@ -34,13 +28,11 @@ else
         end if
     end tell
 
-    delay 0.5
-
-    tell application "System Events"
-        set visibleApps to (every process whose visible is true and name is not frontAppName and name is not "Finder")
-
-        repeat with appProc in visibleApps
-            set visible of appProc to false
-        end repeat
-    end tell
+    delay 1
 end if
+
+tell application "System Events"
+    repeat with appProc in visibleApps
+        set visible of appProc to false
+    end repeat
+end tell
