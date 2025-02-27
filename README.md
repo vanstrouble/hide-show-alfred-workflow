@@ -36,3 +36,4 @@ Hide all active windows, including the frontmost one, across all desktops:
 Show all active windows in all desktops:
 
 - **Keyword:** `showall`
+- **Hold Option (⌥):** Hold the **Option (⌥)** key while running the command to also show any minimized Finder windows.
