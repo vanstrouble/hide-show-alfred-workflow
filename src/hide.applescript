@@ -29,6 +29,7 @@ else if frontAppName is "Finder" then
     end tell
 
     delay 1
+
 end if
 
 tell application "System Events"
