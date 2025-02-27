@@ -7,7 +7,7 @@ A simple yet powerful workflow to manage your workspace: quickly hide all window
 ## Install
 
 - Available on the Alfred Gallery. Get it [here](https://alfred.app/workflows/vanstrouble/hide-show-windows/).
-- You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflowreleases).
+- You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases).
 
 **This workflow is only for Alfred.app Powerpack users.**
 
