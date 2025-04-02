@@ -13,7 +13,7 @@ A simple yet powerful workflow to manage your workspace: quickly hide all window
 
 ### Hide all active windows except the frontmost one (hide)
 
-<img src="img/hide.png" alt="Alfred hide all windows except the frontmost one image" width="65%"/>
+<img src="img/hide.png" alt="Alfred hide all windows except the frontmost one image" width="525"/>
 
 Hide all active windows except the frontmost one:
 
@@ -21,7 +21,7 @@ Hide all active windows except the frontmost one:
 
 ### Hide all active windows (hideall)
 
-<img src="img/hideall.png" alt="Alfred hide all windows image" width="65%"/>
+<img src="img/hideall.png" alt="Alfred hide all windows image" width="525"/>
 
 Hide all active windows, including the frontmost one, across all desktops:
 
@@ -29,7 +29,7 @@ Hide all active windows, including the frontmost one, across all desktops:
 
 ### Show all hidden windows (showall)
 
-<img src="img/show.png" alt="Alfred show all windows image" width="65%"/>
+<img src="img/show.png" alt="Alfred show all windows image" width="525"/>
 
 Show all active windows in all desktops:
 
