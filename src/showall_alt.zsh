@@ -1,5 +1,4 @@
 #!/bin/zsh --no-rcs
-# filepath: /Users/vanstrouble/Developer/hide-show-alfred-workflow/src/showall.zsh
 
 echo "Starting to show all hidden applications..."
 
