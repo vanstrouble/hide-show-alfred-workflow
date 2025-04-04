@@ -18,14 +18,7 @@ A simple yet powerful workflow to manage your workspace: quickly hide all window
 Hide all active windows except the frontmost one:
 
 - **Keyword:** `hide`
-
-### Hide all active windows (hideall)
-
-<img src="img/hideall.png" alt="Alfred hide all windows image" width="525"/>
-
-Hide all active windows, including the frontmost one, across all desktops:
-
-- **Keyword:** `hideall`
+- **Hold Command (⌘):** Hold the **Command (⌘)** key while running `hide` to hide all active windows across all desktops.
 
 ### Show all hidden windows (showall)
 
@@ -34,4 +27,4 @@ Hide all active windows, including the frontmost one, across all desktops:
 Show all active windows in all desktops:
 
 - **Keyword:** `showall`
-- **Hold Option (⌥):** Hold the **Option (⌥)** key while running the command to also show any minimized Finder windows.
+- **Hold Command (⌘):** Hold the **Command (⌘)** key while running the command to also show any minimized Finder windows.
