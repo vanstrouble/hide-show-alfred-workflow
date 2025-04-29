@@ -1,4 +1,4 @@
-# <img src="img/app-icon.png" alt="Hide/Show Window Alfred Workflow Icon" width="45" align="center"/> Hide / Show Window | Alfred Workflow
+# <img src="img/app-icon.png" alt="Hide/Show Window Alfred Workflow Icon" width="45" align="center"/> Hide - Show Windows | Alfred Workflow
 
 A simple yet powerful workflow to manage your workspace: quickly hide all windows, hide everything except the frontmost window, and restore all hidden windows with ease.
 
@@ -7,7 +7,7 @@ A simple yet powerful workflow to manage your workspace: quickly hide all window
 - Available on the Alfred Gallery. Get it [here](https://alfred.app/workflows/vanstrouble/hide-show-windows/).
 - You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases).
 
-**This workflow is only for Alfred.app Powerpack users.**
+**This workflow is only for Alfred Powerpack users.**
 
 ## Getting Started
 
