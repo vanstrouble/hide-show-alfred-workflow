@@ -5,7 +5,7 @@ Take control of your workspace by hiding all windows, keeping only the front win
 ## Download
 
 - Available on the Alfred Gallery. Get it [here](https://alfred.app/workflows/vanstrouble/hide-show-windows/).
-- You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases).
+- You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases/latest).
 
 ## Usage
 
