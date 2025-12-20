@@ -4,24 +4,24 @@ Take control of your workspace by hiding all windows, keeping only the front win
 
 ## Download
 
-- Available on the Alfred Gallery. Get it [here](https://alfred.app/workflows/vanstrouble/hide-show-windows/).
-- You can also download it from GitHub [here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases/latest).
+- Available on the Alfred Gallery. [Get it here](https://alfred.app/workflows/vanstrouble/hide-show-windows/).
+- You can also download it [from GitHub here](https://github.com/vanstrouble/hide-show-alfred-workflow/releases/latest).
 
 ## Usage
 
-### Hide all active windows except the frontmost one (hide)
+### Hide all active windows except the frontmost one (hideall)
 
-<img src="img/hide.png" alt="Alfred hide all windows except the frontmost one image" width="525"/>
+<img src="img/hideall.png" alt="Alfred hide all windows except the frontmost one image" width="530"/>
 
 Hide all active windows except the frontmost one:
 
-- **Keyword:** `hide`
+- **Keyword:** `hideall`
 
-Hold the **Command (⌘)** key while running `hide` to hide all active windows and collaps Finder windows.
+Hold the **Command (⌘)** key while running `hideall` to hide all active windows and collaps Finder windows.
 
 ### Show all hidden windows (showall)
 
-<img src="img/show.png" alt="Alfred show all windows image" width="525"/>
+<img src="img/showall.png" alt="Alfred show all windows image" width="530"/>
 
 Show all active windows in all desktops:
 
