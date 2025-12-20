@@ -17,7 +17,7 @@ Hide all active windows except the frontmost one:
 
 - **Keyword:** `hide`
 
-Hold the **Command (⌘)** key while running `hide` to hide all active windows across all desktops.
+Hold the **Command (⌘)** key while running `hide` to hide all active windows and collaps Finder windows.
 
 ### Show all hidden windows (showall)
 
@@ -27,4 +27,4 @@ Show all active windows in all desktops:
 
 - **Keyword:** `showall`
 
-Hold the **Command (⌘)** key while running the command to also show any minimized Finder windows.
+Hold the **Command (⌘)** key while running the command to also show any collapsed Finder windows.
