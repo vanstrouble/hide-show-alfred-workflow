@@ -1,22 +1,22 @@
 #!/usr/bin/osascript -l JavaScript
 (() => {
-	const systemEvents = Application("System Events");
+    try {
+        ObjC.import("stdlib");
+        const systemEvents = Application("System Events");
+        const status = $.getenv("minf") || "0";
 
-	// Hide all apps except Finder
-	try {
-		const processes = systemEvents.processes();
+        if (status === "1") {
+            Application("Finder").activate();
+            systemEvents.keystroke("h", { using: ["command down", "option down"] });
+            systemEvents.keystroke("m", { using: ["command down", "option down"] });
+            delay(0.2);
+            return "Success! Show all and unminimize Finder";
+        }
 
-		for (let i = 0; i < processes.length; i++) {
-			try {
-				const process = processes[i];
-				if (process.visible() && process.name() !== "Finder") {
-					process.visible = false;
-				}
-			} catch (e) {
-				// Ignore if properties can't be read or set for a process
-			}
-		}
-	} catch (e) {
-		console.log(e);
-	}
+        systemEvents.keystroke("h", { using: ["command down", "option down"] });
+        delay(0.2);
+        return "Success! Hide all windows except the frontmost one";
+    } catch (e) {
+        return "Error: " + e;
+    }
 })();
